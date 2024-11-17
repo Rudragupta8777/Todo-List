@@ -1,7 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TodoList" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<resources>
+    <style name="Theme.TodoList" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Custom attributes -->
+        <item name="backgroundColor">@color/dark_background</item>
+        <item name="textColor">@color/dark_text</item>
+        <item name="cardBackground">@color/dark_card_background</item>
+        <item name="checkboxTint">@color/dark_checkbox_tint</item>
+        <item name="progressBarColor">@color/dark_progress_bar</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/backgroundColor</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
+
 </resources>

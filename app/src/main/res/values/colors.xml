@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF808080</color>
+
+    <!-- Light theme colors -->
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_text">#000000</color>
+    <color name="light_card_background">#F5F5F5</color>
+    <color name="light_checkbox_tint">#000000</color>
+    <color name="light_progress_bar">#000000</color>
+
+    <!-- Dark theme colors -->
+    <color name="dark_background">#000000</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_card_background">#121212</color>
+    <color name="dark_checkbox_tint">#FFFFFF</color>
+    <color name="dark_progress_bar">#FFFFFF</color>
 </resources>
